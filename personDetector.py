@@ -4,9 +4,9 @@ import cv2
 import time
 import numpy as np
 from openvino.inference_engine import IECore
-model ="pedestrian-detection-adas-0002.xml"
+model ="model/pedestrian-detection-adas-0002.xml"
 device ="CPU"
-input_stream = "person_media.mp4"
+input_stream = "video/person_media.mp4"
 def main():
     model_xml = model
     model_bin = os.path.splitext(model_xml)[0] + ".bin"
