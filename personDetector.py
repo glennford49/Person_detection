@@ -47,6 +47,7 @@ def main():
             inf_end = time.time()
             det_time = inf_end - inf_start
             res = exec_net.requests[cur_request_id].outputs[out_blob]
+            
             # Draw performance stats
             inf_time_message = "Fps: {:.2f}".format(det_time * 1000) 
             cv2.rectangle(frame, (4,3),(95,20),(0,0,0),-1)
