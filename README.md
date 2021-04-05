@@ -3,4 +3,4 @@ accurate person detection using openvino models
 
 # Instructions
 
-link
+Follow intructions here : https://youtu.be/XlZxs5jzl80
